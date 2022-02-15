@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .photo-frame {
+            width: 300px;
+            height: 200px;
+            border: 2px solid goldenrod;
+            border-radius: 10px;
+            position: relative;
+            margin: 10px;
+            overflow: hidden;
+
+
+        }
+
+        .photo img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .photo-detail {
+            position: absolute;
+            width: 300px;
+            top: 0;
+            display: none;
+
+        }
+
+        .photo-frame:hover .photo-detail {
+            display: block;
+            background-color: rgba(218, 165, 32, 0.308);
+
+        }
+
+        .photo-detail h3 {
+            background-color: black;
+            color: blanchedalmond;
+            text-align: center;
+        }
+
+        .photo-detail p {
+            color: blanchedalmond;
+        }
+
+        .photo-album {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .photo-frame:hover .photo {
+            transform: scale(1.5) skew(-30deg);
+            transition: transform 2s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <h1>My awesome photo album with tiger mama
+    </h1>
+    <section>
+        <h2>Tiger album</h2>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jfif" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger mama candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, recusandae, cum quidem
+                        doloribus
+                        sed aliquid voluptates, iure a hic veniam rerum numquam quisquam soluta veritatis ut
+                        perferendis!
+                        Officia, aperiam cupiditate!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jfif" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger mama candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, recusandae, cum quidem
+                        doloribus
+                        sed aliquid voluptates, iure a hic veniam rerum numquam quisquam soluta veritatis ut
+                        perferendis!
+                        Officia, aperiam cupiditate!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jfif" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger mama candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, recusandae, cum quidem
+                        doloribus
+                        sed aliquid voluptates, iure a hic veniam rerum numquam quisquam soluta veritatis ut
+                        perferendis!
+                        Officia, aperiam cupiditate!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jfif" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger mama candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, recusandae, cum quidem
+                        doloribus
+                        sed aliquid voluptates, iure a hic veniam rerum numquam quisquam soluta veritatis ut
+                        perferendis!
+                        Officia, aperiam cupiditate!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jfif" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger mama candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, recusandae, cum quidem
+                        doloribus
+                        sed aliquid voluptates, iure a hic veniam rerum numquam quisquam soluta veritatis ut
+                        perferendis!
+                        Officia, aperiam cupiditate!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jfif" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger mama candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, recusandae, cum quidem
+                        doloribus
+                        sed aliquid voluptates, iure a hic veniam rerum numquam quisquam soluta veritatis ut
+                        perferendis!
+                        Officia, aperiam cupiditate!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jfif" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger mama candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, recusandae, cum quidem
+                        doloribus
+                        sed aliquid voluptates, iure a hic veniam rerum numquam quisquam soluta veritatis ut
+                        perferendis!
+                        Officia, aperiam cupiditate!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jfif" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger mama candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, recusandae, cum quidem
+                        doloribus
+                        sed aliquid voluptates, iure a hic veniam rerum numquam quisquam soluta veritatis ut
+                        perferendis!
+                        Officia, aperiam cupiditate!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jfif" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger mama candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, recusandae, cum quidem
+                        doloribus
+                        sed aliquid voluptates, iure a hic veniam rerum numquam quisquam soluta veritatis ut
+                        perferendis!
+                        Officia, aperiam cupiditate!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/tiger.jfif" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger mama candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, recusandae, cum quidem
+                        doloribus
+                        sed aliquid voluptates, iure a hic veniam rerum numquam quisquam soluta veritatis ut
+                        perferendis!
+                        Officia, aperiam cupiditate!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
